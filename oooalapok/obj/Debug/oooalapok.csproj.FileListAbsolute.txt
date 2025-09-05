@@ -1,0 +1,7 @@
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\bin\Debug\oooalapok.exe.config
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\bin\Debug\oooalapok.exe
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\bin\Debug\oooalapok.pdb
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\obj\Debug\oooalapok.csproj.AssemblyReference.cache
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\obj\Debug\oooalapok.csproj.CoreCompileInputs.cache
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\obj\Debug\oooalapok.exe
+C:\Users\hegymegikissa\source\repos\oooalapok\oooalapok\obj\Debug\oooalapok.pdb

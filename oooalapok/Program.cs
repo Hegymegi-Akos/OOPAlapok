@@ -8,9 +8,40 @@ using System.Threading.Tasks;
 namespace oooalapok
 {
     public class Szemely
-    { 
-        public string nev = "Kiss Péter ";
-        public int kor = 35;
+    {
+        public string nev;
+        private int kor;
+
+
+
+        // Új konstruktor hozzáadva
+        public Szemely(string nev, int kor)
+        {
+            this.nev = nev;
+            this.Kor = kor;
+        }
+
+
+
+        public int Kor 
+        {
+            get { return kor; }
+            set
+            {
+                if (value >= 0)
+                { 
+                    kor = value;
+                }
+                else
+                {
+                    throw new ArgumentOutOfRangeException(nameof(value), "Az életkor nem lehet negatív.");
+                }
+
+            }
+        }
+        public override string ToString()
+        {
+            return $"Név : {nev},Életkor :{Kor}";        }
 
 
     }
@@ -19,11 +50,12 @@ namespace oooalapok
     {
         static void Main(string[] args)
         {
+           
+            Szemely tanulo = new Szemely("Kiss Péter", 35);
+          
+            Console.WriteLine(tanulo);
 
-            Szemely tanulo = new Szemely();
-            Console.WriteLine(tanulo.nev);
-            Console.WriteLine(tanulo.kor);
-
+       
         }
     }
 }
